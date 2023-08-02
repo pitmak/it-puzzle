@@ -1,0 +1,30 @@
+{
+  "name": "it-puzzle",
+  "version": "1.0.0",
+  "description": "My implementation of good old puzzle",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=production",
+    "serve": "webpack serve --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pitmak/it-puzzle.git"
+  },
+  "author": "pitmak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pitmak/it-puzzle/issues"
+  },
+  "homepage": "https://github.com/pitmak/it-puzzle#readme",
+  "devDependencies": {
+    "eslint": "^8.46.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.28.0",
+    "html-webpack-plugin": "^5.5.3",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}
